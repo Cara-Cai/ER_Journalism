@@ -19,7 +19,12 @@ function App() {
     <div>
     {/* Show cover page if `showCover` is true */}
     {showCover ? (
-        <div className="cover-page">
+        <div className="cover-page"
+        style={{
+          background: "url('../image.png') no-repeat center center/cover",
+        }}
+        
+        >
           <h1>Check It Out: ITP Historical Stories Untold</h1>
           <p>Based on ER System Checkout Data 2011-2024</p>
           <button onClick={() => setShowCover(false)}>Enter</button>
