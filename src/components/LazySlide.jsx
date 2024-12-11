@@ -40,12 +40,12 @@ function LazySlide({ title, children, viewportPosition }) {
         maxWidth: "40vw",
         left: "10%",
         paddingLeft: "40px",
-        paddingRight: "40px",
-        paddingBottom: "40px",
-        paddingTop:"40px",
-        backgroundColor: isVisible ? "rgba(144, 3, 252, 0.8)" : "transparent",
+        paddingRight: "30px",
+        paddingBottom: "30px",
+        paddingTop:"30px",
+        backgroundColor: isVisible ? "rgba(76, 0, 112, 0.8)" : "transparent",
         borderRadius: "10px",
-        color: isVisible ? "lightyellow" : "transparent", // Hide content until loaded
+        color: isVisible ? "white" : "transparent", // Hide content until loaded
         transition: "color 0.3s ease, background-color 0.3s ease",
         zIndex: "50",
         lineHeight: "1.5",

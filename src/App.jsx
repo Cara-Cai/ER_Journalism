@@ -34,7 +34,16 @@ function App() {
          {/* Lazy Loaded Slides */}
     {/* Lazy Loaded Slides */}
   <LazySlide title="Overview" viewportPosition={30}>
-    Situated within the Tisch School of the Arts at NYU, the Interactive Telecommunications Program (ITP) has a nearly half-century history of exploring the possibilities of interactive technologies and creative participatory experiences since its founding in 1979.<br/><br/>The Equipment Room (ER) at ITP has been a cornerstone of this exploration since its establishment in 2011. It stands as a living testament to the evolution of technology and creativity, providing students with tools to bring their ideas to life. Thanks to Daniel Tsadok for compiling the dataset of ER checkout records spanning 2011-2024. This invaluable resource offers a glimpse into the history of ITP’s creative journey.
+  Located at NYU’s Tisch School of the Arts, the Interactive Telecommunications Program (ITP) has been advancing interactive technologies and creative experiences since 1979.
+
+Since 2011, the Equipment Room (ER) has played a pivotal role in this innovation, equipping students with tools to realize their ideas. Thanks to Daniel Tsadok’s compilation of ER checkout records (2011–2024), we gain a unique window into ITP’s creative evolution.
+
+
+
+
+
+
+
   </LazySlide>
 
   {/* <LazySlide viewportPosition={100}>
