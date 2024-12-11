@@ -25,8 +25,8 @@ function App() {
         }}
         
         >
-          <h1>Check It Out: ITP Historical Stories Untold</h1>
-          <p>Based on ER System Checkout Data 2011-2024</p>
+          <h3>Check It Out: ITP Historical Stories Untold</h3>
+          <p>A Scrolling Journey Based on ER System Checkout Data 2011-2024</p>
           <button onClick={() => setShowCover(false)}>Enter</button>
         </div>
     ) : (

@@ -33,7 +33,8 @@ function LazySlide({ title, children, viewportPosition }) {
     <div
       ref={slideRef}
       style={{
-        fontFamily: "Arial",
+        fontFamily: "Open Sans, light",
+        fontSize: "18px",
         position: "absolute",
         top: `${viewportPosition}vh`,
         maxWidth: "40vw",
@@ -42,9 +43,9 @@ function LazySlide({ title, children, viewportPosition }) {
         paddingRight: "40px",
         paddingBottom: "40px",
         paddingTop:"40px",
-        backgroundColor: isVisible ? "rgba(158, 86, 209, 0.8)" : "transparent",
+        backgroundColor: isVisible ? "rgba(144, 3, 252, 0.8)" : "transparent",
         borderRadius: "10px",
-        color: isVisible ? "yellow" : "transparent", // Hide content until loaded
+        color: isVisible ? "lightyellow" : "transparent", // Hide content until loaded
         transition: "color 0.3s ease, background-color 0.3s ease",
         zIndex: "50",
         lineHeight: "1.5",
@@ -54,9 +55,10 @@ function LazySlide({ title, children, viewportPosition }) {
         <div
           style={{
             color: "white",
+            fontFamily: "Poppins, sans-serif",
             fontSize: "22px",
             fontWeight: "bold",
-            marginBottom: "15px",
+            marginBottom: "20px",
           }}
         >
           {title}
