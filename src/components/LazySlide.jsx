@@ -36,7 +36,7 @@ function LazySlide({ title, children, viewportPosition }) {
         fontFamily: "Open Sans, light",
         fontSize: "18px",
         position: "absolute",
-        top: `${viewportPosition}vh`,
+        top: `${viewportPosition}%`,
         maxWidth: "40vw",
         left: "10%",
         paddingLeft: "40px",

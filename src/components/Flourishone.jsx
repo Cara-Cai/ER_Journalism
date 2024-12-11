@@ -70,7 +70,7 @@ export default function FlourishEmbed({ viewportPosition }) {
     <div
       style={{
         position: "absolute",
-        top: `${viewportPosition}vh`,
+        top: `${viewportPosition}%`,
         left: "10%",
         width: "45%",
         height: "600px",
